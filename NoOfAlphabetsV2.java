@@ -3,7 +3,9 @@ public class NoOfAlphabetsV2 {
 
 	public static void main(String[] args) {
 	
-		String data = "sfdkjlasfopqwriqwercxvmnxzcvqwerweoqr";
+		String data = "sfdkjlasfopqwriqGDSGSGSxvmnxzcvqwerweoqr";
+		
+		data = data.toLowerCase();
 		// a-z---26
 		int[] count = new int[26];
 		

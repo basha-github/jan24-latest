@@ -1,15 +1,13 @@
-
 public class NoOfAlphabetsV1 {
-
 	public static void main(String[] args) {
-	
-		String data = "sfdkjlasfopqwriqwercxvmnxzcvqwerweoqr";
+		String data = "sfdkjlasfopqwriqGDSGSGSxvmnxzcvqwerweoqr";
+		
+		data = data.toLowerCase();
+		
 		// a-z---26
 		int[] count = new int[26];
-		
 		for(int i=0;i<data.length();i++) {
 			char ch =  data.charAt(i);
-		
 			if(ch == 'a') {
 				count[0]++;
 			}
