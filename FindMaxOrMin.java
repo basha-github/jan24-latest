@@ -6,9 +6,7 @@ public class FindMaxOrMin {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter size of the array");
 		size = sc.nextInt();
-		
 		num = new int[size];
-		
 		for(int i=0;i<size;i++) {
 			System.out.println("enter " +(i+1)+" element");
 			int n = sc.nextInt();
